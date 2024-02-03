@@ -9,11 +9,17 @@
     width: fit-content;
     background-color: rgb(19, 18, 18);
     color: #ffff;
+    
 }
 .calculatorarea{
     margin: 50px 40px;
 }
+.buttons{
+    display:grid;
+    grid-template-columns: repeat(4,0.5fr);
 
+}
 li{
     list-style: none;
+    flex: 1;
 }
