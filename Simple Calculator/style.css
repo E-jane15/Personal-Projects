@@ -6,7 +6,7 @@
 }
 .calculatorapp{
     padding: 40px 30px;
-    width: fit-content;
+    width:fit-content;
     background-color: rgb(19, 18, 18);
     color: #ffff;
     
@@ -17,9 +17,6 @@
 .buttons{
     display:grid;
     grid-template-columns: repeat(4,0.5fr);
-
-}
-li{
-    list-style: none;
-    flex: 1;
+    gap:30px; 
+    text-align: center;
 }
