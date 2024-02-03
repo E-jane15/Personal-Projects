@@ -6,9 +6,12 @@
 }
 .calculatorapp{
     padding: 40px 30px;
-    width:fit-content;
+    width:100%;
     background-color: rgb(19, 18, 18);
     color: #ffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
     
 }
 .calculatorarea{
