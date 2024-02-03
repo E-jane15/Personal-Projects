@@ -12,11 +12,12 @@
     
 }
 .calculatorarea{
-    margin: 50px 40px;
+    margin: 150px 40px;
 }
 .buttons{
     display:grid;
     grid-template-columns: repeat(4,0.5fr);
     gap:30px; 
     text-align: center;
+    font-size: 50px;
 }
