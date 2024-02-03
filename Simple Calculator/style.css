@@ -10,3 +10,10 @@
     background-color: rgb(19, 18, 18);
     color: #ffff;
 }
+.calculatorarea{
+    margin: 50px 40px;
+}
+
+li{
+    list-style: none;
+}
