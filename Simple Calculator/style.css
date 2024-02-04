@@ -6,7 +6,7 @@
 }
 .calculatorapp{
     padding: 40px 30px;
-    width:100%;
+    width:fit-content;
     background-color: rgb(19, 18, 18);
     color: #ffff;
     margin-top: 50px;
