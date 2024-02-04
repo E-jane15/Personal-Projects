@@ -11,6 +11,7 @@
     color: #ffff;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 60px;
 
     
 }
@@ -22,7 +23,7 @@
     grid-template-columns: repeat(4,0.5fr);
     gap:30px; 
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 div .key{
     border-radius:40px;
