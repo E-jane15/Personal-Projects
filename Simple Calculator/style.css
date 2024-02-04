@@ -32,3 +32,8 @@ div .key{
     padding: 25px 10px;
     cursor: pointer;
 }
+#firstset{
+    background-color: #a7a5a5;
+    color: black;
+}
+
