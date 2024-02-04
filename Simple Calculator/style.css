@@ -25,6 +25,7 @@
     gap:30px; 
     text-align: center;
     font-size: 25px;
+
 }
 div .key{
     border-radius:50px;
@@ -39,4 +40,5 @@ div .key{
 #secondset{
     background-color: #f28c28 ;
 }
+
 
