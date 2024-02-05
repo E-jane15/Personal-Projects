@@ -40,5 +40,8 @@ div .key{
 #secondset{
     background-color: #f28c28 ;
 }
+#zero{
+    grid-column: span 2;
 
+}
 
