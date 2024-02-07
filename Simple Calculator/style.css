@@ -19,7 +19,7 @@
     
 }
 .calculatorarea{
-    margin: 150px 40px;
+    margin: 50px 40px;
 }
 .buttons{
     display:grid;
@@ -47,4 +47,7 @@ div .key{
     grid-column: span 2;
 
 }
-
+.input{
+    text-align: end;
+    font-size: 40px;
+}
