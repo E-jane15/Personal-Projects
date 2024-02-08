@@ -19,7 +19,7 @@
     
 }
 .display{
-    margin: 50px 40px;
+    margin: 30px 40px;
     text-align: end;
 }
 .buttons{
@@ -49,5 +49,9 @@ div .key{
 
 }
 .input{
-    font-size: 30px;
+    font-size: 35px;
+}
+.output{
+    font-size: 50px;
+    margin-top: 20px;
 }
