@@ -18,8 +18,9 @@
 
     
 }
-.calculatorarea{
+.display{
     margin: 50px 40px;
+    text-align: end;
 }
 .buttons{
     display:grid;
@@ -48,6 +49,5 @@ div .key{
 
 }
 .input{
-    text-align: end;
-    font-size: 40px;
+    font-size: 30px;
 }
