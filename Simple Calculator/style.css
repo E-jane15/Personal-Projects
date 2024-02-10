@@ -8,11 +8,11 @@
 .calculatorapp{
     padding: 40px 30px;
     width:400px;
-    height:100vh;
+    height:110vh;
     background-color: rgb(19, 18, 18);
     color: #ffff;
     margin-top: 50px;
-    margin-bottom: 5spx;
+    margin-bottom: 50px;
     margin-left: 60px;
     justify-content: center;
 
@@ -36,13 +36,16 @@ div .key{
     background-color:#404040;
     padding: 25px 10px;
     cursor: pointer;
+    transition: background-color 0.15s;
 }
 #firstset{
     background-color: #a7a5a5;
     color: black;
+    transition: background-color 0.15s;
 }
 #secondset{
     background-color: #f28c28 ;
+    transition: background-color 0.15s;
 }
 #zero{
     grid-column: span 2;
@@ -54,4 +57,14 @@ div .key{
 .output{
     font-size: 50px;
     margin-top: 20px;
+}
+.key:hover{
+    background-color:#313131;
+}
+#firstset:hover{
+    background-color: #d1cfcf;
+}
+#secondset:hover{
+    color: #f28c28;
+    background-color: #ffff;
 }
