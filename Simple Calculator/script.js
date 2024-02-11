@@ -12,6 +12,15 @@ for (let key of buttons){
             input = "";
             display_input.innerHTML = "";
              output.innerHTML = "";
+        }else if (value == "equal"){
+            let result = eval(input);
+            output.innerHTML = result;
+        }
+
+        
+        else {
+          input += value;
+          display_input.innerHTML = input;
         }
     })
 

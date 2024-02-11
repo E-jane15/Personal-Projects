@@ -14,13 +14,12 @@
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 60px;
-    justify-content: center;
-
-    
+    position: fixed; 
 }
 .display{
     margin: 30px 40px;
     text-align: end;
+    position: relative;
 }
 .buttons{
     display:grid;
