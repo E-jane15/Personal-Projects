@@ -15,9 +15,15 @@ for (let key of buttons){
         }else if (value == "equal"){
             let result = eval(input);
             output.innerHTML = result;
+        }else if(value == "opposite"){
+            if(input > 0 || output.innerHTML > 0 || input<0 || output.innerHTML<0){
+             display_input.innerHTML = display_input.innerHTML * -1;
+             output.innerHTML = output.innerHTML * -1;
+            } 
+        }else if(value == "percent"){
+            let answer = input/100;
+            output.innerHTML= answer;
         }
-
-        
         else {
           input += value;
           display_input.innerHTML = input;
