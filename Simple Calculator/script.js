@@ -14,19 +14,26 @@ for (let key of buttons){
              output.innerHTML = "";
         }else if (value == "equal"){
             let result = eval(input);
+            input = result;
             output.innerHTML = result;
+            display_input.innerHTML = result;
         }else if(value == "opposite"){
-            if(input > 0 || output.innerHTML > 0 || input<0 || output.innerHTML<0){
-             display_input.innerHTML = display_input.innerHTML * -1;
-             output.innerHTML = output.innerHTML * -1;
-            } 
+            if(input == ''){
+                display_input.innerHTML = 'undefined'
+                output.innerHTML = 'undefined';
+            }else{
+                input *= -1;
+                display_input.innerHTML = display_input.innerHTML * -1;
+            }
         }else if(value == "percent"){
             let answer = input/100;
-            output.innerHTML= answer;
+            input = answer
+            display_input.innerHTML = input;
+            output.innerHTML= input;
         }
         else {
           input += value;
-          display_input.innerHTML = input;
+          display_input.innerHTML = input;          
         }
     })
 
