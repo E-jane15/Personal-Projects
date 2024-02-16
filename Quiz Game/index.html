@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,6 +15,14 @@
             </h2>
         </div>
      </div>
+
+     <!--results-->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>You are <span class="text-primary display-4 p-3">0%</span> techie</p>
+        </div>
+    </div>
+
      <!-- Quiz part-->
      <div class="quiz py-4 bg-primary">
         <div class="container">
@@ -27,12 +36,12 @@
                     1. What word is often  abbreviated as Fn on a keyboard?
                  </p> 
                  <div class="form-check my-2 text-white-50">
-                    <input type="radio" name="q1" value="A" checked>
-                    <label class="form-check-label">Fingers</label>
+                    <input type="radio" name="q1" value="A" id="answer" checked>
+                    <label for="answer" class="form-check-label">Fingers</label>
                  </div> 
                  <div class="form-check my-2 text-white-50">
-                    <input type="radio" name="q1" value="B">
-                    <label class="form-check-label">Function</label>
+                    <input type="radio" name="q1" value="B" id="ans">
+                    <label for="ans" class="form-check-label">Function</label>
                  </div>    
                 </div>
 
@@ -41,12 +50,12 @@
                        2. What popular operating system has its own mascot, Tux the penguin?
                     </p> 
                     <div class="form-check my-2 text-white-50">
-                       <input type="radio" name="q2" value="A" checked>
-                       <label class="form-check-label">Linux</label>
+                       <input type="radio" name="q2" value="A" id="res" checked>
+                       <label for="res"  class="form-check-label">Linux</label>
                     </div> 
                     <div class="form-check my-2 text-white-50">
-                       <input type="radio" name="q2" value="B">
-                       <label class="form-check-label">Windows</label>
+                       <input type="radio" name="q2" value="B" id="response">
+                       <label for="response" class="form-check-label">Windows</label>
                     </div> 
                    </div>
 
@@ -55,12 +64,12 @@
                        3. What is the oldest programming language?
                     </p> 
                     <div class="form-check my-2 text-white-50">
-                       <input type="radio" name="q3" value="A" checked>
-                       <label class="form-check-label">Java</label>
+                       <input type="radio" name="q3" value="A" id="value" checked>
+                       <label for="value" class="form-check-label">Java</label>
                     </div> 
                     <div class="form-check my-2 text-white-50">
-                       <input type="radio" name="q2" value="B">
-                       <label class="form-check-label">C</label>
+                       <input type="radio" name="q3" value="B" id="reply">
+                       <label for="reply" class="form-check-label">C</label>
                     </div>    
                    </div>
 
@@ -69,12 +78,12 @@
                        4. What is the full meaning of IDE?
                     </p> 
                     <div class="form-check my-2 text-white-50">
-                       <input type="radio" name="q4" value="A" checked>
-                       <label class="form-check-label">Integated Development Environment</label>
+                       <input type="radio" name="q4" value="A" id="retort" checked >
+                       <label for="retort" class="form-check-label">Integated Development Environment</label>
                     </div> 
                     <div class="form-check my-2 text-white-50">
-                       <input type="radio" name="q4" value="B">
-                       <label class="form-check-label">Internet Disruptive Ethics </label>
+                       <input type="radio" name="q4" value="B" id="feedback">
+                       <label for="feedback" class="form-check-label">Internet Disruptive Ethics </label>
                     </div>    
                    </div> 
                    <div class="text-ceter">
@@ -83,5 +92,6 @@
             </form> 
         </div>
      </div>
+     <script src="script.js"></script>
 </body>
 </html>
