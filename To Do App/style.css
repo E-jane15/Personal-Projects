@@ -49,3 +49,12 @@ img{
     border-radius: 5px;
     text-align: center;  
 }
+.new{
+    width: 430px;
+    margin-top: 30px;
+    padding: 9px;
+    text-align: left;
+    background-color: #7c2463;
+    border:1px; 
+    
+}
