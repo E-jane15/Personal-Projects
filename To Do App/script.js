@@ -34,9 +34,27 @@ const generateTemplate = () => {
  
     list.innerHTML += html; 
 }
+//filter function
+const filterTodos = (word) =>{
+  Array.from(list.children) //filtered array of elements whic do not contain word in search bar
+  .filter((todo) => {
+   return !todo.textContent.includes(word);
+  })
+  .forEach((todo) =>{
+    todo.classList.add('filtered')
+   });
 
-
+   Array.from(list.children) //filtered array of elements containing word in search bar
+   .filter((todo) => {
+    return todo.textContent.includes(word);
+   })
+   .forEach((todo) =>{
+     todo.classList.remove('filtered')
+    });   
+  
+};
 //keyup event
 search.addEventListener('keyup', () => {
-  const term = search.value.trim();
+  const word = search.value.trim();
+  filterTodos(word);
 });

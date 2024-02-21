@@ -58,3 +58,6 @@ img{
     border:1px; 
     
 }
+.filtered{
+    display: none !important;
+}
