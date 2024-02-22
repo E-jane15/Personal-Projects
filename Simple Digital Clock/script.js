@@ -24,9 +24,9 @@ const tick = () =>{
     const minute = now.getMinutes();
     const second = now.getSeconds();
     
-    const html = `<span>${hour}</span>: 
-    <span>${minute}</span>: 
-    <span>${second}<span>`;
+    const html = `<span class="time">${hour}</span>: 
+    <span class="time">${minute}</span>:
+    <span class="time">${second}<span>`;
 
     clock.innerHTML= html;
  }

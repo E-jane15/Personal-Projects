@@ -1,0 +1,21 @@
+body{
+    background-color: blueviolet;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.clock ,.date{
+color: rgb(240, 227, 227);
+font-size: 50px;
+text-align: center;
+}
+.clock{
+   margin: 40px auto; 
+}
+.date{
+    margin:100px auto;
+}
+.time{
+    background-color: rgb(91, 42, 138);
+    font-size: 100px;
+    color: rgb(250, 226, 14);
+}
