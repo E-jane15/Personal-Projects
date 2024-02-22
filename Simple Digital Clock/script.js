@@ -1,7 +1,9 @@
 const clock = document.querySelector('.clock');
  
 
-const tick = () =>{
+
+
+/*const tick = () =>{
     const now = new Date();
     const hour =now.getHours();
     const minute = now.getMinutes();
@@ -13,4 +15,4 @@ const tick = () =>{
 
     clock.innerHTML= html;
  }
- setInterval(tick,1000);
+ setInterval(tick,1000);*/
