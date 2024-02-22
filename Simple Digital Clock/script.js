@@ -1,9 +1,24 @@
 const clock = document.querySelector('.clock');
- 
+const period = document.querySelector('.date');
+
+const term = () => {
+    const moment = new Date();
+    const  day = dateFns.format(moment,'dddd');
+    const  date = dateFns.format(moment,'Do');
+    const  month= dateFns.format(moment,'MMMM');
+    const  year = dateFns.format(moment,'YYYY');
+    const html = `<span>${day}<span>, 
+    <span>${date}<span>
+    <span>${month}<span>
+    <span>${year}<span>`;
+    
+    period.innerHTML = html;
+}
+setInterval(term);
 
 
 
-/*const tick = () =>{
+const tick = () =>{
     const now = new Date();
     const hour =now.getHours();
     const minute = now.getMinutes();
@@ -11,8 +26,8 @@ const clock = document.querySelector('.clock');
     
     const html = `<span>${hour}</span>: 
     <span>${minute}</span>: 
-    <span>${second}<span>`
+    <span>${second}<span>`;
 
     clock.innerHTML= html;
  }
- setInterval(tick,1000);*/
+ setInterval(tick,1000);
