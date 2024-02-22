@@ -9,6 +9,8 @@ const tick = () =>{
     
     const html = `<span>${hour}</span>: 
     <span>${minute}</span>: 
-    <span>${hour}<span>`
+    <span>${second}<span>`
+
+    clock.innerHTML= html;
  }
  setInterval(tick,1000);
