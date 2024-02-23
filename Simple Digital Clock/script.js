@@ -20,9 +20,10 @@ setInterval(term);
 
 const tick = () =>{
     const now = new Date();
-    const hour =now.getHours();
-    const minute = now.getMinutes();
-    const second = now.getSeconds();
+    const hour =(now.getHours() <10?"0":" ") + now.getHours() ;
+    const minute = (now.getMinutes()<10? "0": " " )+ now.getMinutes();
+    const second = (now.getSeconds()<10? "0": " ") + now.getSeconds();
+    
     
     const html = `<span class="time">${hour}</span>: 
     <span class="time">${minute}</span>:
