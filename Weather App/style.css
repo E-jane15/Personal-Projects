@@ -12,17 +12,18 @@
     background:linear-gradient(135deg, #e66465, #9198e5);
     text-align: center;
     margin-top: 60px;
+    border-radius: 15px;
+    margin-bottom: 30px;
 
 }
 .search{
-    margin-top: 40px;
     margin-bottom:75px ;
 }
 input{
     padding:10px 10px;
     border-radius: 20px;
     border: none;
-    margin-top: 30px;
+    margin-top: 40px;
     width:270px;
     
 }
@@ -41,13 +42,29 @@ button{
 #weather{
     width: 150px;
 }
-p{
+.weather{
     color: white;
     font-weight:bold;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 .temperature{
     font-size: 75px;
     text-align: center;
 }
+.condition{
+    display: flex;
+    justify-content: space-around;
+    font-size:15px;
+    color: white; 
+}
+#condition{
+    width: 30px;
+    margin-left: 60px;
+    margin-bottom: 45px;
+}
+span{
+    font-size:24px;
+    
+}
+
