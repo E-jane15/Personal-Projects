@@ -20,12 +20,13 @@
 }
 input{
     padding:10px 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
     margin-top: 30px;
     width:270px;
     
 }
+
 #search{
   width: 10px;
 }
@@ -34,10 +35,19 @@ button{
     margin-top: 30px;
     border-radius: 100px;
     border:none;
-    margin-left: 20px;
+    margin-left: 10px;
    
 }
 #weather{
     width: 150px;
 }
-
+p{
+    color: white;
+    font-weight:bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.temperature{
+    font-size: 75px;
+    text-align: center;
+}
