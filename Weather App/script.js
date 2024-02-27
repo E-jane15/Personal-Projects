@@ -8,12 +8,19 @@ const wind = document.querySelector('.wind');
 const searchBar = document.querySelector('.search input');
 const searchBtn = document.querySelector('.search button');
 const weatherIcon = document.querySelector('#weather');
+const error = document.querySelector('.error');
+
 
 async function checkWeather(town){
     const response = await fetch(apiUrl  + town + `&appid=${apiKey}`);
+    
+  if (response.status === 404){
+      error.style.display = 'block';
+      document.querySelector('.weather').style.display = 'none';
+      document.querySelector('.condition').style.display ='none';
+  } else{
+     
     let data = await response.json();
-
-    console.log(data);
     
   city.innerHTML = data.name;
   temp.innerHTML=data.main.temp + "°c";
@@ -34,6 +41,12 @@ async function checkWeather(town){
   } else if(data.weather[0].main == 'Snow'){
     weatherIcon.src='images/snow.png';
   } 
+
+     document.querySelector('.weather').style.display = 'block';
+     document.querySelector(".condition").style.display = 'flex';
+      
+  }
+
 
 }
 
