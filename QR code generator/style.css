@@ -16,6 +16,9 @@
     background-color:#ffff;
     border-radius: 10px;
 }
+p{
+    font-weight: 600;
+}
 #text-field{
     display: block;
     padding: 12px 10px;
