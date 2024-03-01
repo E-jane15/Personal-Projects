@@ -25,7 +25,7 @@ p{
     display: block;
     padding: 12px 10px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     width: 330px;
     border: 1px solid #747171;
     border-radius: 4px;
@@ -34,7 +34,7 @@ p{
 }
 button{
     padding: 10px 20px;
-    margin-top: 15px;
+    margin-top: 20px;
     width: 330px;
     background-color: #1fb63b;
     color: #ffff;
@@ -43,6 +43,15 @@ button{
     cursor: pointer;
     outline: none;
 }
-.qrcode{
-    text-align: center;
+#qrcode{
+    width: 100%;
 }
+.Imgspace{
+    margin: 8px auto;
+    border: 1px solid #747171;
+    max-width: 160px;  
+    border-radius: 5px;
+    display: none;
+}
+   
+
