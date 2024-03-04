@@ -44,3 +44,17 @@
     left: 50%;
     transform: translateX(-50%);
  }
+ .input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+ }
+ input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 18px 15px;
+ }
