@@ -27,3 +27,20 @@
     padding: 50px 60px 70px;
     text-align: center;
  }
+ h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #fc6e10;
+    position: relative;
+ }
+ h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #fc6e10;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+ }
