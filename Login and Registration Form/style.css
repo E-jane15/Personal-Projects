@@ -62,3 +62,34 @@
     margin-left: 15px;
     color: #999;
  }
+ p{
+    text-align: left;
+    font-size: 13px;
+ }
+ a{
+    text-decoration: none;
+    color: #fc6e10;
+ }
+ .btn-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+ button{
+    flex-basis: 48%;
+    background: #fc6e10;
+    color: #ffff;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: background 1s;
+    cursor: pointer;
+ }
+ .input-section{
+    height: 280px;
+ }
+ .secondbtn{
+    background: #eaeaea;
+    color: #555;
+ }
