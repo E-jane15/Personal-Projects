@@ -6,8 +6,21 @@ const qrImage = document.querySelector('#qrcode');
 const Imgspace = document.querySelector('.Imgspace');
 
 function qrCode(){
-    qrImage.src = url + textField.value;
-    Imgspace.style.display = 'block';
+    if (textField.value.length = 0) {
+    
+        setTimeout(()=>{
+        textField.classList.add('error');
+    },1000);
+      
+    setTimeout(()=>{
+        textField.classList.remove('error');
+    },1000);
+
+    } else{
+        qrImage.src = url + textField.value;
+        Imgspace.style.display = 'block';
+    }
+    
 }
 
 btn.addEventListener("click",() => {
