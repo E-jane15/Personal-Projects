@@ -13,3 +13,11 @@ signin.addEventListener('click',()=>{
     text.style.display ='none';
 });
 
+signup.addEventListener('click',()=>{
+    signin.style.background = '#eaeaea';
+    signin.style.color ='#555';
+    signup.style.background = '#fc6e10';
+    signup.style.color ='#ffff';
+    userName.style.display = 'flex';
+    text.style.display ='block';
+});
