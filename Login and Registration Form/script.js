@@ -1,0 +1,15 @@
+const signin = document.querySelector('.signin');
+const signup = document.querySelector('.signup');
+const userName = document.getElementById('name');
+const text = document.querySelector('p');
+
+
+signin.addEventListener('click',()=>{
+    signin.style.background = '#fc6e10';
+    signin.style.color ='#ffff';
+    signup.style.background = '#eaeaea';
+    signup.style.color ='#555';
+    userName.style.display = 'none';
+    text.style.display ='none';
+});
+
