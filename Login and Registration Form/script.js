@@ -10,7 +10,7 @@ signin.addEventListener('click',()=>{
     signup.style.background = '#eaeaea';
     signup.style.color ='#555';
     userName.style.display = 'none';
-    text.style.display ='none';
+    text.style.display ='block';
     title.innerHTML = 'Sign In';
 });
 
@@ -20,6 +20,6 @@ signup.addEventListener('click',()=>{
     signup.style.background = '#fc6e10';
     signup.style.color ='#ffff';
     userName.style.display = 'flex';
-    text.style.display ='block';
+    text.style.display ='none';
     title.innerHTML = 'Sign Up';
 });
