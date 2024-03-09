@@ -97,3 +97,20 @@ margin-right: 7px;
 .nav-cart h1{
     font-size: 15px;
 }
+.nav-bottom{
+    background: #232f3e;
+    padding: 5px 10px;
+    align-items: center;
+    font-size: 15px;
+    color: #ffff;
+}
+.nav-bottom .menu{
+ display: flex;
+ gap: 5px;
+ margin-right: 20px;
+}
+.nav-bottom .nav-bottom-text{
+    display: flex;
+    gap: 20px;
+    margin-left: 15px;
+}
