@@ -114,3 +114,10 @@ margin-right: 7px;
     gap: 20px;
     margin-left: 15px;
 }
+.main-background ul{
+    display: flex;
+    overflow-y: hidden;
+}
+.img-header{
+    width: 100%;
+}
