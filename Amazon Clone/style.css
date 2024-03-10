@@ -119,5 +119,23 @@ margin-right: 7px;
     overflow-y: hidden;
 }
 .img-header{
-    width: 100%;
+   max-width: 100%;
+   mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
+   
+}
+.main-background ul::-webkit-scrollbar{
+    display: none;
+}
+.main-background a {
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    background: #ffffff4f;
+    padding: 10px 15px;
+    font-size: 30px;
+    color: #3f3e3e;
+    
+}
+.main-background .next{
+     right: 0;
 }
