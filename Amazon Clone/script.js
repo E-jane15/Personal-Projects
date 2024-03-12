@@ -13,7 +13,7 @@ function slide (){
 };
 
 previous.addEventListener('click', (e) =>{
-     e.preventDefault;
+     e.preventDefault();
      if(n > 0){
        n = n-1;
      }else {
@@ -23,14 +23,19 @@ previous.addEventListener('click', (e) =>{
 });
 
 next.addEventListener('click', (e) => {
-    e.preventDefault;
+    e.preventDefault();
     if(n < images.length-1){
         n = n+1;
     }else {
         n = 0;
     }
-
-     
-     slide();
-
+    slide();
 });
+
+const wheelEvent = document.querySelectorAll('.products-row');
+for (const element of wheelEvent) {
+    element.addEventListener('wheel', (e)=>{
+       e.preventDefault();
+       element.scrollLeft += e.deltaY;
+    });
+};

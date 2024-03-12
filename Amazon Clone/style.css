@@ -164,3 +164,22 @@ margin-right: 7px;
 .box-column{
     margin-top: -20vw;
 }
+.img-rows{
+  background: #ffff;
+  margin: 0 30px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.products-row{
+    display: flex;
+    overflow-x: hidden;
+    gap: 20px;
+    margin-top: 10px;
+}
+.products-row img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.products-row:hover{
+    overflow-x: scroll;
+}
